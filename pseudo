@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Estilos generales */
+.section {
+    border: 2px solid #000;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Pseudo-classes */
+/* :hover */
+.link:hover {
+    background-color: yellow;
+}
+
+/* :active */
+.btn:active {
+    background-color: red;
+}
+
+/* :focus */
+.input:focus {
+    border: 2px solid blue;
+}
+
+/* :visited */
+.link:visited {
+    color: purple;
+}
+
+/* :checked */
+.checkbox:checked {
+    background-color: green;
+}
+
+/* :disabled */
+.btn:disabled {
+    opacity: 0.5;
+}
+
+/* :enabled */
+.input:enabled {
+    background-color: white;
+}
+
+/* :invalid */
+.input:invalid {
+    border: 2px solid red;
+}
+
+/* :default */
+.input:default {
+    background-color: gray;
+}
+
+/* :empty */
+.empty-div:empty {
+    background-color: pink;
+}
+
+/* Structural classes */
+/* :nth-child(odd) */
+ul li:nth-child(odd) {
+    background-color: yellow;
+}
+
+/* :nth-child(even) */
+ul li:nth-child(even) {
+    background-color: gray;
+}
+
+/* :first-child */
+ul li:first-child {
+    font-weight: bold;
+}
+
+/* :last-child */
+ul li:last-child {
+    font-style: italic;
+}
+
+/* :nth-child(n) */
+ul li:nth-child(3) {
+    background-color: blue;
+}
+
+/* :nth-last-child(n) */
+ul li:nth-last-child(2) {
+    background-color: green;
+}
+
+/* :nth-of-type(n) */
+ul li:nth-of-type(2) {
+    font-size: 18px;
+}
+
+/* :nth-last-of-type(n) */
+ul li:nth-last-of-type(1) {
+    font-size: 24px;
+}
+
+/* Pseudo-elements */
+/* ::before */
+.paragraph::before {
+    content: "Prefix: ";
+    color: blue;
+}
+
+/* ::after */
+.paragraph::after {
+    content: " Suffix";
+    color: red;
+}
+
+/* ::first-letter */
+.paragraph::first-letter {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* ::selection */
+.paragraph::selection {
+    background-color: yellow;
+}
+
+/* ::placeholder */
+.input::placeholder {
+    color: gray;
+}
+
+/* Estilos básicos para botones e inputs */
+.btn, .link {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 200px;
+}
+
+.checkbox {
+    margin: 10px;
+}
+
+.paragraph {
+    margin: 20px 0;
+}
